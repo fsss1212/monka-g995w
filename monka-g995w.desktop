@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=MONKA G995W
+Comment=Configure the MONKA G995W mouse
+Comment[ru]=Настройка мыши MONKA G995W
+Exec=monka-g995w
+Icon=input-mouse
+Type=Application
+Terminal=false
+Categories=Settings;HardwareSettings;

@@ -1,0 +1,3 @@
+ACTION!="remove", SUBSYSTEM=="hidraw", KERNEL=="hidraw*", IMPORT{builtin}="usb_id"
+ACTION!="remove", SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ENV{ID_USB_VENDOR_ID}=="1d57", ENV{ID_USB_MODEL_ID}=="fa60", ENV{ID_USB_REVISION}=="0105", ENV{ID_USB_MODEL}=="G995W_MOUSE", ENV{ID_USB_INTERFACE_NUM}=="02", TAG+="uaccess"
+ACTION!="remove", SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ENV{ID_USB_VENDOR_ID}=="1d57", ENV{ID_USB_MODEL_ID}=="fa61", ENV{ID_USB_REVISION}=="0104", ENV{ID_USB_MODEL}=="USB_Gaming_Mouse", ENV{ID_USB_INTERFACE_NUM}=="02", TAG+="uaccess"
